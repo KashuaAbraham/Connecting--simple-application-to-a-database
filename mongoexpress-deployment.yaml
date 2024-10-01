@@ -28,11 +28,10 @@ spec:
         - name: ME_CONFIG_MONGODB_ADMINPASSWORD
           valueFrom:
             secretKeyRef:
-               name: mongodb-secret  
+              name: mongodb-secret  
               key: MONGO_INITDB_ROOT_PASSWORD  
         - name: ME_CONFIG_MONGODB_SERVER
           valueFrom:
             configMapKeyRef:
-               name: mongo-express-config 
-              key: database_url  
-        
+              name: mongo-express-config 
+              key: database_url
