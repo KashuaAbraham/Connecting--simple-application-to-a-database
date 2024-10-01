@@ -34,4 +34,4 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: mongo-express-config 
-              key: database_url
+              key: mongodb-service
