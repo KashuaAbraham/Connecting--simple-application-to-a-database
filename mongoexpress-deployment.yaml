@@ -31,7 +31,4 @@ spec:
               name: mongodb-secret  
               key: MONGO_INITDB_ROOT_PASSWORD  
         - name: ME_CONFIG_MONGODB_SERVER
-          valueFrom:
-            configMapKeyRef:
-              name: mongo-express-config 
-              key: mongodb-service
+          value: mongodb-service  # Reference the MongoDB service name

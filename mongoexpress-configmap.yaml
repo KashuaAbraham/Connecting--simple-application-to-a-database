@@ -5,4 +5,4 @@ metadata:
   labels:
     app: mongo-express
 data:
-  database_url: mongodb-service 
+  mongodb-service: mongodb-service
