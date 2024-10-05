@@ -29,4 +29,4 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mongodb-secret  
-              key: MONGO_INITDB_ROOT_PASSWORD  
+              key: MONGO_INITDB_ROOT_PASSWORD
