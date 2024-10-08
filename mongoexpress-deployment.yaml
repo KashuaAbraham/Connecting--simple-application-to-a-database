@@ -1,3 +1,8 @@
+
+To connect your mongo-express deployment to the running MongoDB instance, your configuration looks mostly correct. Here's a refined version to ensure the connection works properly:
+
+yaml
+Copy code
 apiVersion: apps/v1
 kind: Deployment
 metadata:
